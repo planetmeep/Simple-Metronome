@@ -1,0 +1,144 @@
+ 
+ @font-face {
+    font-family: 'Open Sans';
+    src: url(OpenSans-Light.ttf);
+ }
+
+ body{
+   min-width: 200px;
+   background-color: lightgray;
+   font-family: 'Open Sans';
+   text-align: center;
+ }
+
+ .BPMText{
+   font-size: 40px;
+   line-height: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: #4a4a4a;
+ }
+
+ .BPMButton{
+   align-self: center;
+   font-size: 34px;
+   font-weight: bold;
+   color: #4a4a4a;
+   outline: none;
+   height: 36px;
+   width: 36px;
+   border-radius: 50%;
+   background: none;
+   border: none;
+   cursor: pointer;
+   transition: 0.1s;
+ }
+
+ .BPMButton:hover{
+   color: #333333;
+ }
+
+ .BPMButton:active{
+   color: #222222;
+ }
+ 
+ .BPMTextContainer{
+   justify-content: center;
+   display: flex;
+ }
+
+ .sliderContainer{
+   width: 100%;
+ }
+
+ .beatCircleContainer{
+   justify-content: center;
+   padding: 3px;
+ }
+
+ .beatCircle{
+   display: inline-block;
+   height: 30px;
+   width: 30px;
+   border-radius: 50px;
+   border: 1px solid #4a4a4a;
+   margin: 2px;
+   background: none;
+ }
+
+ .beatCircleFilled{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  border: 1px solid #4a4a4a;
+  margin: 2px;
+  background: #4a4a4a;
+ }
+
+ .beatCircleFirst{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  border: 1px solid #4a4a4a;
+  margin: 2px;
+  background: #ea5252;
+ }
+
+ .timeSignatures{
+   vertical-align: middle;
+   border: none;
+   text-align: center;
+   color: #4a4a4a;
+   background: none;
+   font-size: 20px;
+   font-family: 'Open Sans';
+   cursor: pointer;
+ }
+
+ option{
+   border-radius: 0%;
+   box-shadow: none;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ .playButtonContainer{
+   justify-content: center;
+   display: flex;
+ }
+
+ .playButton{
+   margin-left: 60px;
+   margin-right: 60px;
+   justify-self: center;
+   font-size: 55px;
+   font-weight: bold;
+   outline: none;
+   height: 65px;
+   width: 65px;
+   background: none;
+   border: none;
+   color: #4a4a4a;
+   cursor: pointer;
+   transition: 0.1s;
+ }
+
+ .playButton:hover{
+   color: #333333;
+ }
+
+ .playButton:active{
+   color: #222222;
+ }
+
+ .slider{
+   position: relative;
+   appearance: none;
+   display: block;
+   width: 100%;
+   height: 5px;
+   background: gray;
+   border-radius: 50px;
+   outline: none;
+ }
